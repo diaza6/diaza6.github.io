@@ -40,7 +40,7 @@ Scholarships:
 
 ## Leadership
 
-### [SHPE](uwshpe.com) | Webmaster & Director of Advertising
+### [SHPE](https://www.uwshpe.com/) | Webmaster & Director of Advertising
 - Created media to market events, documented events for future advertisements, and managed all social media accounts
 - Managed student resources, such as scholarships, and published online
 - Created and deployed web content relevant to organizational news and events
