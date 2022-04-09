@@ -11,9 +11,9 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
+    <body class="text-center">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#!">Start Bootstrap</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -29,12 +29,31 @@
         </nav>
         <!-- Page Content-->
         <section>
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-6">
-                        <h1 class="mt-5">The Big Picture</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
-                    </div>
+            <h1 class="p-3">
+                Which Video Game to Play Today
+            </h1>
+            <button id="get-game" class="btn btn-dark">Get Game</button>
+            <hr>
+            <div id="games">
+                <div id="pc" class="d-flex flex-row flex-wrap justify-content-center">
+                    <h2 class="p-1">PC Game</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/2048px-Steam_icon_logo.svg.png" alt="Steam logo" class="p-1" width="50px" height="50px" />
+                    <div class="w-100"></div>
+                </div>
+                <div id="playstation" class="d-flex flex-row flex-wrap justify-content-center">
+                    <h2 class="p-1">Playstation Game</h2>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PlayStation_logo.svg/2560px-PlayStation_logo.svg.png" alt="Playstation logo" class="p-1" width="50px" height="50px" />
+                    <div class="w-100"></div>
+                </div>
+                <div id="xbox" class="d-flex flex-row flex-wrap justify-content-center">
+                    <h2 class="p-1">Xbox Game</h2>
+                    <img src="https://compass-ssl.xbox.com/assets/56/72/5672b413-1b6a-4307-b1df-e4ff5311ee8d.svg?n=03958693_App-Icon-0_120x120.svg" alt="Xbox logo" class="p-1" width="50px" height="50px" />
+                    <div class="w-100"></div>
+                </div>
+                <div id="switch" class="d-flex flex-row flex-wrap justify-content-center">
+                    <h2 class="p-1">Switch Game</h2>
+                    <img src="https://seeklogo.com/images/N/nintendo-switch-logo-38D4F5C7E7-seeklogo.com.png" alt="Switch logo" class="p-1" width="50px" height="50px" />
+                    <div class="w-100"></div>
                 </div>
             </div>
         </section>
